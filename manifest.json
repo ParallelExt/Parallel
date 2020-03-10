@@ -2,5 +2,8 @@
     "name": "Parallel",
     "description" : "Find dictionary for words you highlight",
     "version": "1.0",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "parallel.html"   
+    }
 }
