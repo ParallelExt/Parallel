@@ -12,3 +12,9 @@ ul.nav {
 li {
     display: inline;
 }
+
+image {
+
+  height: 100px;
+  width: auto;
+}
