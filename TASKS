@@ -1,4 +1,4 @@
-- Understand Web Scraping 
+- Understand Web Scraping
    - Python - BeutifulSoup, requests
    - Javascript, CSS and HTML
 
@@ -7,3 +7,5 @@
 - Build a Logo
 
 - Add basic HTML display
+
+CI for chrome extension - https://circleci.com/blog/continuously-deploy-a-chrome-extension/
