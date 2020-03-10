@@ -21,19 +21,24 @@ ul.nav {
 }
 
 li {
-    float: left;
+  float: left;
+}
+
+img {
+  height: 100px;
+  width: auto;
 }
 
 li a {
-    display: block;
-    color: rgba(229, 223, 235, 0.966);
-    text-align: center;
-    padding: 14px 25px;
-    text-decoration: none;
-    background-color: rgba(30, 0, 58, 0.966);
+  display: block;
+  color: rgba(229, 223, 235, 0.966);
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  background-color: rgba(30, 0, 58, 0.966);
 }
 
 li a:hover {
-    background-color: rgba(229, 223, 235, 0.966);
-    color: rgba(30, 0, 58, 0.966);
+  background-color: rgba(229, 223, 235, 0.966);
+  color: rgba(30, 0, 58, 0.966);
 }
