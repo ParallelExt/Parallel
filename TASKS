@@ -1,11 +1,12 @@
-- Understand Web Scraping
-   - Python - BeutifulSoup, requests
-   - Javascript, CSS and HTML
-
-- Find a good dictionary
-
-- Build a Logo
-
-- Add basic HTML display
-
 CI for chrome extension - https://circleci.com/blog/continuously-deploy-a-chrome-extension/
+
+DONE -
+# JSON loader created
+# text selector created
+# text is displayed in extension
+
+TO BE DONE - 
+# text needs to be checked for issues (single word, no punctuations, only string no numbers)
+# text need to be found in the dictionary
+# thesaurus needs to be loaded
+# Make sure to write functions in select.js and do not mess with whatever is already written
