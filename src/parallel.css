@@ -1,42 +1,49 @@
 body{
-    min-width: 300px;
-    margin: 0px;
-    padding: 0px;
+  min-width: 300px;
+  margin: 0px;
+  padding: 0px;
 }
 
-div.header {
-    min-width: 100%;
+div.logo {
+  min-width: 100%;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 80px;
-    width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: auto;
 }
 
-div.word {
-    margin-left: 20px;
+div.heading {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.search {
+  display: none;
+  margin-left: 20px;
 }
 
 div.nav-pane {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 li {
   float: left;
 }
 
-li a {
+li button {
   display: block;
   color: rgba(229, 223, 235, 0.966);
   text-align: center;
@@ -45,7 +52,13 @@ li a {
   background-color: rgba(30, 0, 58, 0.966);
 }
 
-li a:hover {
+li button:hover {
   background-color: rgba(229, 223, 235, 0.966);
   color: rgba(30, 0, 58, 0.966);
+}
+
+div.footer {
+  height:40px;
+  width: 100%;
+  background-color: rgba(30, 0, 58, 0.966) ;
 }
