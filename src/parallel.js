@@ -14,7 +14,6 @@ getWord = (selected) => {
     return word.substring(indexStart, indexEnd).toLowerCase();           // return the word
 }
 
-
 // AJAX function to load the required dictionary json file and finds the word in the dictionary
 // takes the path to the json file as an argument
 lookDict = (path, word) => {
@@ -46,7 +45,7 @@ printWord = (printMessage) => {
 chrome.tabs.executeScript({               
     code: "window.getSelection().toString();"
 }, function (selected) {
-    var selectText = getWord(selected);
-    document.getElementById("showWord").innerHTML = selectText;
+    selectText = getWord(selected);
+    $("#wordHeading").append(selectText);
     lookDict("../Dictionary/dictionary_alpha_arrays.json", selectText);
 });
